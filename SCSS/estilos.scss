@@ -1,0 +1,69 @@
+/*SASS//Pincipales caracteristicas*/
+
+//1) Puedo anidar selectores.
+//2) Puedo trabajar con variables.
+
+h1{
+    color:rgb(134, 141, 141);
+    text-align: center;
+
+}
+
+form {
+    box-sizing: border-box;
+   width: 100%;
+   padding: 12px;
+}
+
+.footer{
+    text-decoration: underline;
+    background: #ddd;
+    margin-top: 20px;
+    margin: 20%;
+   
+   p{
+    padding: 20px;
+    text-align: center;
+   }
+}
+
+p{
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(54, 52, 56);
+}
+/*aca tamaño de las img del carrusel*/
+
+.tamaño{
+    height: 750px;
+    border-radius: 80px;
+    padding: 50px;
+    object-fit:fill;
+    
+}
+
+div.gallery{
+    margin: 9px;
+    width: 180px;
+    float: left;
+    border: 2px solid #ccc;
+      
+}
+
+  div.gallery img {
+    width: 100%;
+    height: auto;
+   
+  }
+  
+  div.desc {
+    padding: 5px;
+
+    text-align: center;
+   
+  }
+
+  p{
+    font-size: 15px;
+
+  }
