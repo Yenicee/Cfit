@@ -12,14 +12,19 @@ form {
 }
 
 .footer {
-  text-decoration: underline;
-  background: #ddd;
-  margin-top: 20px;
-  margin: 20%;
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
 }
 .footer p {
   padding: 20px;
   text-align: center;
+}
+.footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 p {
@@ -37,10 +42,11 @@ p {
 }
 
 div.gallery {
-  margin: 9px;
+  margin: 20px;
   width: 180px;
   float: left;
   border: 2px solid #ccc;
+  background-color: rgb(178, 213, 201);
 }
 
 div.gallery img {
