@@ -1,4 +1,23 @@
 .central{
     color: rgb(38, 47, 47);
     margin: 20px;
+    text-shadow: 1px 1px rgb(58, 58, 66);
+    
+    img{
+        width: 450px;
+        height: 350px;
+        object-fit:contain;
+
+    }
+}
+ /*Superior*/
+
+.arroz{
+     background-color: rgb(189, 228, 228);
+     display: flex;
+}
+
+.atun{
+    border-radius:20px;
+
 }

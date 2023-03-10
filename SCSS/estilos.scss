@@ -2,7 +2,7 @@
 
 //1) Puedo anidar selectores.
 //2) Puedo trabajar con variables.
-@import "condicional";
+@import "condicional","footer","variables";
 
 
 h1 {
@@ -17,25 +17,7 @@ form {
   padding: 12px;
 }
 
-.footer {
-  background-color: #f1f1f1;
-  padding: 50px;
-  text-align: center;
-  margin-top: 20px;
- 
 
-
-  p {
-    padding: 20px;
-    text-align: center;
-  }
-
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-}
 
 p {
   text-align: center;
@@ -44,9 +26,10 @@ p {
 }
 
 /*aca tamaño de las img del carrusel*/
+/*CARRUSEL ACA*/
 
 .tamaño {
-  height: 750px;
+  height: 550px;
   border-radius: 80px;
   padding: 50px;
   object-fit: fill;
