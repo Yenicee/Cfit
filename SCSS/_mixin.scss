@@ -1,0 +1,12 @@
+/*Mixins*/
+
+@mixin titulo{
+    font-weight: normal;
+    text-align: center;
+}
+
+@mixin parrafo{
+       color: rgb(61, 72, 72);
+       font-size: 15px;
+       
+}

@@ -38,8 +38,15 @@ footer ul {
   padding: 0;
 }
 
+.gallery {
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.9;
+}
+
+/*Mixins*/
 h1 {
-  color: rgb(134, 141, 141);
+  color: rgb(70, 72, 76);
   text-align: center;
 }
 
@@ -52,7 +59,7 @@ form {
 p {
   text-align: center;
   font-size: 1.5rem;
-  color: rgb(54, 52, 56);
+  color: rgb(79, 85, 85);
 }
 
 /*aca tamaño de las img del carrusel*/
