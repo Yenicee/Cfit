@@ -1,5 +1,16 @@
 .gallery{
       object-fit: cover;
-      opacity: 0.9;
-      
+      opacity: 0.9
+}
+
+/*aca tamaño de las img del carrusel*/
+/*CARRUSEL ACA*/
+
+.tamaño {
+      height: 750px;
+      border-radius: 80px;
+      padding: 30px;
+      object-fit: fill;
+      width: 100%;
+
 }

@@ -36,10 +36,23 @@ footer ul {
   margin: 0;
   padding: 0;
 }
+footer a {
+  color: rgb(53, 141, 120);
+}
 
 .gallery {
   object-fit: cover;
   opacity: 0.9;
+}
+
+/*aca tamaño de las img del carrusel*/
+/*CARRUSEL ACA*/
+.tamaño {
+  height: 750px;
+  border-radius: 80px;
+  padding: 30px;
+  object-fit: fill;
+  width: 100%;
 }
 
 /*Mixins*/
@@ -58,15 +71,6 @@ p {
   text-align: center;
   font-size: 1.5rem;
   color: rgb(79, 85, 85);
-}
-
-/*aca tamaño de las img del carrusel*/
-/*CARRUSEL ACA*/
-.tamaño {
-  height: 550px;
-  border-radius: 80px;
-  padding: 50px;
-  object-fit: fill;
 }
 
 div.gallery {
