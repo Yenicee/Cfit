@@ -21,6 +21,22 @@
   border-radius: 20px;
 }
 
+h2 {
+  color: rgb(55, 56, 58);
+}
+
+.colum {
+  background-color: rgb(203, 203, 196);
+  border-radius: 20%;
+  padding: 10px;
+  margin: 15px;
+  box-shadow: 8px 8px 5px 10px lightblue;
+}
+.colum p {
+  font-size: 15px;
+  color: rgb(48, 37, 37);
+}
+
 footer {
   background-color: #cbd9d7;
   padding: 50px;
@@ -53,6 +69,10 @@ footer a {
   padding: 30px;
   object-fit: fill;
   width: 100%;
+}
+
+.fondo {
+  background-color: rgb(215, 233, 233);
 }
 
 /*Mixins*/
